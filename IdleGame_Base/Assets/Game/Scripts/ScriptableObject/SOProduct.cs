@@ -5,5 +5,6 @@ using UnityEngine;
 public class SOProduct :ScriptableObject
 {
     public string productName;
-
+    public Sprite icon;
+    public GameObject prefab;
 }

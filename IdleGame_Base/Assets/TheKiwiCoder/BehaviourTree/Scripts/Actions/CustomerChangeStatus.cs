@@ -15,7 +15,7 @@ public class CustomerChangeStatus : ActionNode
 
     protected override State OnUpdate()
     {
-        context.customer.customerStatus = newCustomerStatus;
+        context.customer.ChangeStatus( newCustomerStatus);
         switch (newCustomerStatus)
         {
             case CustomerStatus.Nothings:
@@ -24,7 +24,8 @@ public class CustomerChangeStatus : ActionNode
                 context.customer.seat.ChangeSeatStatus (SeatStatus.CustomerSeated,context.customer) ;
                 break;
             case CustomerStatus.Ordered:
-                break;
+                   
+                    break;
             case CustomerStatus.ReceiveOrdered:
                 break;
             case CustomerStatus.Complete:

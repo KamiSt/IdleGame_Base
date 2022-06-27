@@ -14,6 +14,6 @@ public class CustomerGetStatus : ActionNode
 
     protected override State OnUpdate()
     {
-        return SuccessStatus == context.customer.customerStatus ? State.Success : State.Failure;
+        return SuccessStatus == context.customer.GetCustomerStatus() ? State.Success : State.Failure;
     }
 }

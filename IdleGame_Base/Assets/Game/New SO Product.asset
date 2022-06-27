@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: New SO Product
   m_EditorClassIdentifier: 
   productName: orange
+  icon: {fileID: 21300000, guid: f9914dbf14a73472d942a44b9bdc134d, type: 3}
+  prefab: {fileID: 1432254121047128, guid: 3543dbd2cbef54b4395a83d1e32f7419, type: 3}

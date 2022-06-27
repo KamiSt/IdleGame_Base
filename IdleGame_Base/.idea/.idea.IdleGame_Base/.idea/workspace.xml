@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fabea557-dee5-4b48-bbb0-35b44ce98462" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Customer/CustomerStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Customer/CustomerStatus.cs.meta" afterDir="false" />
+    <list default="true" id="fabea557-dee5-4b48-bbb0-35b44ce98462" name="Changes" comment="Add BT to the game&#10;Add waiter and customer &#10;make new product with machine can make it and work every things okey &#10;We need add code to get time frome machin to make core gameplay with out update machin is work currectly">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IdleGame_Base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IdleGame_Base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Material/Mat_Customer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Material/Mat_Customer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Material/Mat_Waiter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Material/Mat_Waiter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/New SO Product.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/New SO Product.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefab/Customer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefab/Customer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Customer/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Customer/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObject/SOProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObject/SOProduct.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Seat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Seat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/CustomerChangeStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/CustomerChangeStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/CustomerGetStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/CustomerGetStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +82,18 @@
       <option name="presentableId" value="Default" />
       <updated>1656162028064</updated>
       <workItem from="1656162030887" duration="3133000" />
-      <workItem from="1656165238243" duration="20430000" />
+      <workItem from="1656165238243" duration="20794000" />
+      <workItem from="1656252466067" duration="1962000" />
+      <workItem from="1656312541825" duration="213000" />
     </task>
+    <task id="LOCAL-00001" summary="Add BT to the game&#10;Add waiter and customer &#10;make new product with machine can make it and work every things okey &#10;We need add code to get time frome machin to make core gameplay with out update machin is work currectly">
+      <created>1656247309985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656247309985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add BT to the game&#10;Add waiter and customer &#10;make new product with machine can make it and work every things okey &#10;We need add code to get time frome machin to make core gameplay with out update machin is work currectly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BT to the game&#10;Add waiter and customer &#10;make new product with machine can make it and work every things okey &#10;We need add code to get time frome machin to make core gameplay with out update machin is work currectly" />
   </component>
 </project>

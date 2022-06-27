@@ -30,14 +30,15 @@ public class Seat :MonoBehaviour
     public void Ordering()
     {
         orderEnum = OrderEnum.Ordering;
-        customer.customerStatus = CustomerStatus.Ordering;
+        customer.ChangeStatus( CustomerStatus.Ordering);
         EventManager.ChangeSeatStatus();
     }
     public void Ordered()
     {
         orderEnum = OrderEnum.Ordered;
-        customer.customerStatus = CustomerStatus.Ordered;
         orders=FindObjectOfType<ProductManager>().GetRandomOrder();
+        customer.ChangeStatus(CustomerStatus.Ordered,FindObjectOfType<ProductManager>().Products[0]);
+       
         EventManager.ChangeSeatStatus();
         
     }
@@ -49,7 +50,7 @@ public class Seat :MonoBehaviour
         if (orders.Count != 0) return;
         seatStatus = SeatStatus.NoCustomer;
         orderEnum = OrderEnum.NoOrder;
-        customer.customerStatus = CustomerStatus.ReceiveOrdered;
+        customer.ChangeStatus( CustomerStatus.ReceiveOrdered);
         EventManager.ChangeSeatStatus();
     }
 }
